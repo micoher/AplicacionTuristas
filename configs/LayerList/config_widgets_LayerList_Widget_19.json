@@ -1,0 +1,54 @@
+{
+  "showTitle": true,
+  "showBasemap": false,
+  "showLegend": true,
+  "expandAllLayersByDefault": false,
+  "contextMenu": {
+    "ZoomTo": true,
+    "Transparency": true,
+    "SetVisibilityRange": true,
+    "EnableOrDisablePopup": true,
+    "ControlLabels": true,
+    "MoveupOrMovedown": true,
+    "OpenAttributeTable": true,
+    "DescriptionOrShowItemDetailsOrDownload": true
+  },
+  "layerOptions": {
+    "PuntosInteres_4416": {
+      "display": true
+    },
+    "survey123_04dfa27f32664e499d2a06dda0e5f35f_27_6681": {
+      "display": true
+    },
+    "survey123_04dfa27f32664e499d2a06dda0e5f35f_27": {
+      "display": true
+    },
+    "Servicios_editables_7297": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_4074": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_3976": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_450": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_8855": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_7870": {
+      "display": true
+    },
+    "Servicios_editables_7009": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_484": {
+      "display": true
+    },
+    "Servicios_no_editables_PFM_677": {
+      "display": true
+    }
+  }
+}

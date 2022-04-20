@@ -1,0 +1,16 @@
+<div>
+    <div>
+        <div id="divFormato">
+            <select id="select" data-dojo-attach-point="selector" data-dojo-attach-event="onChange: tipoRuta">
+                <option value="-1">Selecciona un tipo de ruta</option>
+                <option value="2">Añade las paradas</option>
+                <option value="3">Dibuja tu ruta</option>
+            </select>
+        </div>
+        <div id="divEjecucion">
+            <button id="botonTres" data-dojo-attach-event="onclick: borrarRuta">Borrar ruta</button>
+            <button id="botonDos" data-dojo-attach-event="onclick: calculaRuta">Calcula la ruta</button>
+        </div>
+    </div>
+    <div id="perfilElevaciones" data-dojo-attach-point="esriElevationProfile"></div>
+</div>

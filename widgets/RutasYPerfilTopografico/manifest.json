@@ -1,0 +1,25 @@
+{
+  "name": "RutasYPerfilTopografico",
+  "label": "Rutas y Perfil Topografico",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.23",
+  "wabVersion": "2.23",
+  "author": "Grupo 5 TFM",
+  "description": "La idea es que pueda calcular rutas y dibujar su perfil topográfico",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": true,
+		"hasStyle":true,
+		"hasConfig":false,
+		"hasUIFile":true,
+		"hasSettingPage":false,
+		"hasSettingUIFile":false,
+		"hasSettingLocale":false,
+		"hasSettingStyle":false,
+		"IsController":false
+  }
+}

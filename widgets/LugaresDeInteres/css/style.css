@@ -1,0 +1,145 @@
+div{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 15px;
+}
+
+.esriBookmarks{
+    width:100%;
+    border-style: solid;
+    border-color: #769DC0;
+    border-width: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+  }
+  .esriBookmarkTable{
+    width: 100%;
+    border-spacing: 0px;
+    border-collapse:collapse;
+  }
+  .esriBookmarkLabel{
+    position: relative;
+    float: left;
+    width: 100%;
+    overflow:hidden;
+    line-height:20px;
+    height: 20px;
+    white-space: nowrap;
+    font-size:15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:left;
+    vertical-align:middle;
+    color:black;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  .esriBookmarkItem{
+    width:100%;
+    height: 20px;
+    padding: 2px 0;
+  }
+  .esriAddBookmark{
+    margin: 0px;
+    padding: 0px;
+  }
+  .esriAddBookmark div{
+    padding: 0 5px;
+  }
+  .esriBookmarkHighlight{
+    background-color: #7eaff9;
+  }
+  .esriBookmarkEditImage{
+    float:right;
+    width:30px;
+    cursor: pointer;
+    background: transparent url("../images/edit.png") no-repeat scroll center center;
+  }
+  .esriBookmarkRemoveImage{
+    float:right;
+    width: 30px;
+    cursor: pointer;
+    background: transparent url("../images/close.gif") no-repeat scroll center center;
+  }
+  .esriBookmarkEditBox{
+    position: fixed;
+    font-size:12px;
+    height: 18px;
+    width:180px;
+    z-index: 999;
+  }
+  .esriBookmarks .dojoDndItem {
+    padding: 0px;
+    border-top: 2px solid #7eaff9;
+    border-bottom: 2px solid #7eaff9;
+  }
+  .esriBookmarks .dojoDndItemOver {
+    cursor: auto;
+  }
+  .esriBookmarks .dojoDndItemOver .dojoDndItemSelected {
+    background-color: #7eaff9;
+  }
+  
+  .esriBookmarks .esriBookmarkList .dojoDndItemAnchor,
+  .esriBookmarks .esriBookmarkList .dojoDndItemSelected{
+    background-color: transparent;
+  }
+  
+  .esriBookmarks .dojoDndItemOver .dojoDndItemAnchor {
+    border:none;
+    cursor: move;
+    background-color: transparent;
+  }
+  
+  .esriBookmarks .dojoDndItemBefore, .dojoDndItemBefore > td {
+    border-top: 2px dashed #7eaff9;
+    background: #7eaff9 !important;
+  }
+  
+  .esriBookmarks .dojoDndItemAfter, .dojoDndItemAfter > td {
+    border-bottom: 2px dashed #7eaff9;
+    background: #7eaff9 !important;
+  }
+  
+  /* Avatar */
+  .dojoDndAvatarItem {
+    display: none;
+  }
+  
+  .dojoDndAvatar {
+    border: 2px solid #CCC !important;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #57585A;
+    padding: 5px;
+  }
+  
+  .dojoDndMove .dojoDndAvatarHeader {
+    background-color: #ffffff !important;
+    color:#000;
+    background-image: none;
+    padding: 2px;
+  }
+  
+  .dojoDndAvatarHeader td span{
+    padding: 4px;
+  }
+  
+  .dojoDndAvatarHeader tr,
+  .dojoDndAvatarHeader td  {
+    border: none;
+  }
+  
+  /* RTL */
+  .esriBookmarksRTL .esriBookmarkEditImage{
+    float:left;
+  }
+  .esriBookmarksRTL .esriBookmarkRemoveImage{
+    float:left;
+  }
+  .esriBookmarksRTL .esriBookmarkLabel{
+    float:right;
+    text-align: right;
+  }
+  .esriBookmarksRTL .esriBookmarkEditBox{
+    float:right;
+  }
+
